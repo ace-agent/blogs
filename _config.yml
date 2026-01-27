@@ -33,6 +33,9 @@ avatar: "/assets/img/ace-logo.png"
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
 
+url: "https://ace-agent.github.io"
+baseurl: "/blogs"
+
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
 #title-img: /path/to/image
@@ -165,7 +168,7 @@ footer-hover-col: "#0085A1"
 #################################
 
 # Fill in your Google Analytics tag ID (or "Measurement ID") to track your website usage
-gtag: "G-J7LNK5FYHK"
+# gtag: "G-J7LNK5FYHK"
 
 # Fill in your Cloudflare Analytics beacon token to track your website using Cloudflare Analytics
 #cloudflare_analytics: ""
@@ -290,9 +293,12 @@ exclude:
   - screenshot.png
   - docs/
 
+remote_theme: daattali/beautiful-jekyll
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-remote-theme
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
