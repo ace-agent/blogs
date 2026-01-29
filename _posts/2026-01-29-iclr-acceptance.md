@@ -6,8 +6,6 @@ share-img: /assets/img/iclr-logo.png
 author: Qizheng Zhang
 image: /assets/img/iclr-logo.png
 ---
-<br>
-
 🎉 **Our paper _Agentic Context Engineering (ACE)_ has been accepted to ICLR 2026!**
 
 We are excited to share that our work on building *self-improving language agents through context evolution* will appear at the International Conference on Learning Representations (ICLR) 2026.
@@ -16,7 +14,6 @@ ACE explores a simple but powerful idea: instead of updating model weights, can 
 
 **[[💻 Source code]](https://github.com/ace-agent/ace) &nbsp;  [[📚 Paper]](https://arxiv.org/pdf/2510.04618)**
 
-<br>
 <br>
 
 ## What is ACE?
@@ -54,7 +51,6 @@ Since releasing ACE, we’ve been thrilled to see growing interest from the rese
 ICLR 2026 is just the beginning --- we see ACE as part of a broader research agenda around. If you’re working on related problems or want to build on ACE, we’d love to hear from you! 
 
 <br>
-<be>
 
 ## Contact Us
 
