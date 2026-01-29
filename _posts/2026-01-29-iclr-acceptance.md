@@ -10,7 +10,9 @@ image: /assets/img/iclr-logo.png
 
 We are excited to share that our work on building *self-improving language agents through context evolution* will appear at the International Conference on Learning Representations (ICLR) 2026.
 
-ACE explores a simple but powerful idea: instead of updating model weights, can we continuously **evolve an agent’s context, memory, and tools at test time** to make it smarter over time?
+ACE explores a simple but powerful idea: instead of updating model weights, how do we continuously **evolve an agent’s context, memory, and tools at test time** to make it smarter over time? The ACE paper improves both quality and efficiency for the emerging learning context problem on both offline and online scenarios.
+
+We release the code on [Github](https://github.com/ace-agent/ace) with easy reproduction. Moreover, we are building the ACE repo as a **research platform** for researchers to further explore context-based learning and self-improving agents. We are currently filling the support matrix for the most popular datasets and current frameworks, and welcome contributions from the community!
 
 **[[💻 Source code]](https://github.com/ace-agent/ace) &nbsp;  [[📚 Paper]](https://arxiv.org/pdf/2510.04618)**
 
@@ -40,15 +42,17 @@ If you are interested in how test-time memory, learning from experience, reflect
 
 <br>
 
-## Growing ACE as a Context Platform with the Community
+## ACE as a Context Engineering Research Platform
 
 Since releasing ACE, we’ve been thrilled to see growing interest from the research and open-source communities:
 
 - ⭐️ Active development at [github.com/ace-agent/ace](https://github.com/ace-agent/ace)
 - 📣 Talks and presentations at Hippocratic AI, HKU NAISS Lab, and more to come
-- 🤝 New research collaborations building on ACE as a platform for studying context-based methods and self-evolving agents at Stanford, MIT, and more
+- 🤝 New research collaborations building on ACE as a platform for studying context-based methods and self-evolving agents at Stanford, MIT, ...
 
-ICLR 2026 is just the beginning --- we see ACE as part of a broader research agenda around. If you’re working on related problems or want to build on ACE, we’d love to hear from you! 
+Qizheng put a support graph here, include datasets already included, dataset being constructed, (same for frameworks like RLM, blabla)
+
+ICLR 2026 is just the beginning --- we see ACE as part of a broader research agenda around the new context learning paradigm. If you’re working on related problems or want to build on the ACE platform, we’d love to hear from you! 
 
 <br>
 
