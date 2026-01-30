@@ -31,7 +31,9 @@ Concretely, ACE provides:
 - **Evaluation across diverse agentic and reasoning tasks**, showing consistent performance and efficiency gains without retraining the underlying model
 
 <div align="center">
-<img src="/assets/img/ace-system.png" alt="Icon" style="width:700px; vertical-align:middle;">
+  <img src="{{ '/assets/img/ace-system.png' | relative_url }}"
+       alt="ACE system diagram"
+       style="width:700px; vertical-align:middle;">
 </div>
 
 Across coding, tool-use, and domain-specific reasoning benchmarks, ACE demonstrates that carefully engineered and continuously evolving contexts can unlock strong improvements in task success rate, efficiency, and robustness, thus pushing toward **self-improving AI systems** that learn from experience in deployment.
@@ -47,6 +49,7 @@ Since releasing ACE, we’ve been thrilled to see growing interest from the rese
 - 🤝 New research collaborations building on ACE as a platform for studying context-based methods and self-evolving agents at Stanford, MIT, ...
 
 Over the next few weeks and months, we plan to release several major additions to the ACE platform across datasets, system features, and new research directions:
+
 | Datasets | Features | New Research |
 |-------|----------|------|
 | DDXPlus (medical reasoning)   | ACE + Agent Skills  | ACE + Meta-Memory Evolution |
