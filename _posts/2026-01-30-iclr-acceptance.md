@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Agentic Context Engineering (ACE) accepted at ICLR 2026"
+title: "Agentic Context Engineering (ACE) accepted at ICLR 2026!"
 thumbnail-img: /assets/img/iclr-logo.png
 share-img: /assets/img/iclr-logo.png
 author: Qizheng Zhang
@@ -40,7 +40,7 @@ Across coding, tool-use, and domain-specific reasoning benchmarks, ACE demonstra
 
 If you are interested in how test-time memory, learning from experience, reflection, and planning interact with modern LLM systems, we think ACE will resonate with you! 
 
-## ACE as a Context / Self-Evolving Agent Research Platform
+## ACE as a Context Evolution Research Platform
 
 Since releasing ACE, we’ve been thrilled to see growing interest from the research and open-source communities:
 
@@ -50,11 +50,22 @@ Since releasing ACE, we’ve been thrilled to see growing interest from the rese
 
 Over the next few weeks and months, we plan to release several major additions to the ACE platform across datasets, system features, and new research directions:
 
-| Datasets | Features | New Research |
-|-------|----------|------|
-| DDXPlus (medical reasoning)   | ACE + Agent Skills  | ACE + Meta-Memory Evolution |
-| BIRD-SQL (text-to-SQL)  | ACE + Recursive Language Models    | ACE + Tool-Augmented Context |
-| Terminal-Bench (terminal agents)  |   |  |
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Datasets and Benchmarks</strong></td>
+      <td>DDXPlus (medical reasoning), BIRD-SQL (text-to-SQL), Terminal-Bench (terminal agents), ...</td>
+    </tr>
+    <tr>
+      <td><strong>Features</strong></td>
+      <td>ACE + Agent Skills, ACE + Recursive Language Models, ...</td>
+    </tr>
+    <tr>
+      <td><strong>New Research</strong></td>
+      <td>Meta-Memory Evolution, Tool-Augmented Context, ...</td>
+    </tr>
+  </tbody>
+</table>
 
 ICLR 2026 is just the beginning. We see ACE as part of a broader research agenda around a new paradigm for context-driven learning and test-time adaptation in AI systems. If you’re working on related problems or interested in building on the ACE platform, we’d love to hear from you! 
 
